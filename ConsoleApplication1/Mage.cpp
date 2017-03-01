@@ -12,7 +12,7 @@ Mage::Mage(int health, int mana, std::string name)
 {
 	_health = health;
 	_mana = mana;
-	std::string name = _name;
+	_name = name;
 }
 
 
