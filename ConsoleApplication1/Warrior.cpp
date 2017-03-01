@@ -18,7 +18,6 @@ Warrior::Warrior(int armor, int health, int rage)
 }
 
 
-}
 
 
 Warrior::~Warrior()

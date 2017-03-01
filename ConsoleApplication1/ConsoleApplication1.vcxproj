@@ -19,10 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Hunter.cpp" />
+    <ClCompile Include="..\Mage.cpp" />
+    <ClCompile Include="..\Rogue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SelectClass.cpp" />
     <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Hunter.h" />
+    <ClInclude Include="..\Mage.h" />
+    <ClInclude Include="..\Rogue.h" />
+    <ClInclude Include="SelectClass.h" />
     <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
