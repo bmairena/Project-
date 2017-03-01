@@ -5,7 +5,7 @@ Mage::Mage()
 {
 	_health = 10;
 	_mana = 50;
-	_name = "Jaina";
+	_name = "Khadgar";
 }
 
 Mage::Mage(int health, int mana, std::string name)
