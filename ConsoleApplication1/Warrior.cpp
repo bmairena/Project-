@@ -13,6 +13,8 @@ Warrior::Warrior()
 Warrior::Warrior(int armor, int health, int rage)
 {
 	_armor = armor;
+	_health = health;
+	_rage = rage;
 }
 
 
