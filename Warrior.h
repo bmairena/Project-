@@ -10,7 +10,9 @@ private:
 public:
 	Warrior();
 	
-	Warrior(int armor, int health, int rage);
+	Warrior(int armor);
+	Warrior(int health);
+	Warrior(int rage);
 
 	~Warrior();
 };
