@@ -14,13 +14,14 @@ Mage::Mage(int health, int mana, std::string name, std::string description)
 	_health = health;
 	_mana = mana;
 	_name = name;
+	_description = description;
 }
 
 std::string Mage::getMageInfo()
 {
-	_description = "Name:" + _name 
-		+ "\nMana:" + std::to_string(_mana)
-		+ "\nHealth:"	+ std::to_string(_health);
+	_description = "Name:" + _name + "\nMana:" 
+		+ std::to_string(_mana)+ "\nHealth:"	
+		+ std::to_string(_health);
 	return _description;
 }
 

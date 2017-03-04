@@ -20,12 +20,12 @@ int main()
 	{
 	case 1: cout << warChar.getWarriorInfo() << endl;
 		break;
-	case 2: cout << huntChar.getHunterInfo() << endl;
-		break;
-	case 3: cout << mageChar.getMageInfo() << endl;
-		break;
-	case 4: cout << rogueChar.getRogueInfo() << endl;
-		break;
+	//case 2: cout << huntChar.getHunterInfo() << endl;
+	//	break;
+	//case 3: cout << mageChar.getMageInfo() << endl;
+	//	break;
+	//case 4: cout << rogueChar.getRogueInfo() << endl;
+	//	break;
 	}
 	return 0;
 }
