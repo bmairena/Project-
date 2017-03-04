@@ -18,12 +18,11 @@ Hunter::Hunter(int health, int energy, std::string name, std::string description
 }
 std::string Hunter::getHunterInfo()
 {
-	_description = "Name:" + _name+ "\nEnergy:" 
-		+ std::to_string(_energy)+ "\nHealth:" 
-		+ std::to_string(_health);
+	_description = "Name:" + _name
+		+ "\nEnergy:" + std::to_string(_energy)
+		+ "\nHealth:" + std::to_string(_health);
 	return _description;
 }
-
 
 Hunter::~Hunter()
 {
